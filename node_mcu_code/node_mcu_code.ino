@@ -4,13 +4,8 @@ SoftwareSerial s(D6,D5);
 #include <ArduinoHttpClient.h>
 #include "ESP8266WiFi.h"
 
-<<<<<<< HEAD
 const char* ssid = "YourWiFi";
 const char* pass = "YourPassword";
-=======
-const char* ssid = "PixarPier-Guest";
-const char* pass = "Guest123";
->>>>>>> 5cce6987374f035eae2956c70f3ce63850df255e
 const char* server = "13.56.213.3";
 int port = 8086;
 
